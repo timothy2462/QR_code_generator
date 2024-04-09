@@ -287,10 +287,10 @@ export default function Qrcode() {
                   &copy;2024
                 </p>
                 <a
-                  href="https://github.com/theCephas"
+                  href="https://github.com/timothy2462?tab=repositories"
                   className="inline cursor-pointer text-green-500 "
                 >
-                  Osho Iseoluwa
+                  Timothy Akobundu
                 </a>
               </div>
               <div

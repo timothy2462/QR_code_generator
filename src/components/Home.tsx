@@ -88,7 +88,7 @@ const Home = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.3, duration: 2 }}
-                className={`text-black/80 text-center duration-500 py-6 leading-8 px-6 md:px-10 md:w-[700px] m-auto text-[11px] ${
+                className={`text-black/80 text-center duration-500 py-6 leading-8 px-6 md:px-10 md:w-[700px] m-auto text-[14px] ${
                   isDarkMode ? "dark:text-white/50" : "light:bg"
                 }`}
               >
@@ -122,7 +122,7 @@ const Home = () => {
               </p>
               <div className="flex flex-col md:flex-row justify-between items-center mt-12 mx-6 sm:mx-10">
                 <div>
-                  <p className="text-center text-[12px] pb-4 w-auto md:w-[400px] leading-8 md:text-left">
+                  <p className="text-center text-[14px] pb-4 w-auto md:w-[400px] leading-8 md:text-left">
                     Seamlessly connect your customers to your digital world
                     using custom-designed QR codes that leave a lasting
                     impression. From websites to social media, menus to
@@ -167,7 +167,7 @@ const Home = () => {
                 <p
                   className={`${
                     isDarkMode ? "dark:text-white/60" : "light:bg"
-                  } text-black text-[11px] font-semibold text-black/40 pb-8`}
+                  } text-black text-[13px] font-semibold text-black/40 pb-8`}
                 >
                   Transform your marketing strategies with eye-catching QR codes
                   that engage and excite.
@@ -175,7 +175,7 @@ const Home = () => {
                 <p
                   className={`pb-4 ${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -186,7 +186,7 @@ const Home = () => {
                 <p
                   className={`${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -197,7 +197,7 @@ const Home = () => {
                 <p
                   className={`pt-4 ${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -221,14 +221,14 @@ const Home = () => {
                 <p
                   className={`${
                     isDarkMode ? "dark:text-white/60" : "light:bg"
-                  } text-black text-[11px] font-semibold text-black/40 pb-8`}
+                  } text-black text-[13px] font-semibold text-black/40 pb-8`}
                 >
                   Unlocking Convenience: Embrace the Power of QR Codes.
                 </p>
                 <p
                   className={`pb-4 ${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -239,7 +239,7 @@ const Home = () => {
                 <p
                   className={`${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -250,7 +250,7 @@ const Home = () => {
                 <p
                   className={`pt-4 ${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -274,7 +274,7 @@ const Home = () => {
                 <p
                   className={`${
                     isDarkMode ? "dark:text-white/60" : "light:bg"
-                  } text-black text-[11px] font-semibold text-black/40 pb-8`}
+                  } text-black text-[13px] font-semibold text-black/40 pb-8`}
                 >
                   Keep loved ones informed effortlessly using the power of QR
                   Codes.{" "}
@@ -282,7 +282,7 @@ const Home = () => {
                 <p
                   className={`pb-4 ${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -293,7 +293,7 @@ const Home = () => {
                 <p
                   className={`${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -304,7 +304,7 @@ const Home = () => {
                 <p
                   className={`pt-4 ${
                     isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black text-[11px]`}
+                  } text-black text-[13px]`}
                 >
                   <CheckBox
                     size={18}
@@ -340,7 +340,7 @@ const Home = () => {
               </p>
               <a
                 href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"
-                className="inline cursor-pointer text-green-500 "
+                className="inline cursor-pointer text-green-500  text-[13px]"
               >
                 Timothy Akobundu
               </a>
