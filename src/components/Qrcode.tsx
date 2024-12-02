@@ -272,64 +272,62 @@ export default function Qrcode() {
             </section>
 
             <footer
-              className={`flex justify-between ${
-                isDarkMode ? "dark:bg-[#030a05]" : "light:bg"
-              } border-t border-t-black/40 ${
-                isDarkMode ? "dark:border-t-white/40" : "light:bg"
-              } duration-700 text-[10px] p-6 px-6 md:px-10 border-t border-t-white`}
-            >
-              <div className="flex">
-                <p
-                  className={`pr-2 ${
-                    isDarkMode ? "dark:text-white" : "light:bg"
-                  } text-black`}
-                >
-                  &copy;2024
-                </p>
-                <a
-                  href="https://github.com/timothy2462?tab=repositories"
-                  className="inline cursor-pointer text-green-500 "
-                >
-                  Timothy Akobundu
-                </a>
-              </div>
-              <div
-                className={`${
+            className={`flex justify-between ${
+              isDarkMode ? "dark:bg-[#030a05]" : "light:bg"
+            } duration-700 text-[10px] p-6 px-6 md:px-10 border-t border-t-white`}
+          >
+            <div className="flex">
+              <p
+                className={`pr-2 ${
                   isDarkMode ? "dark:text-white" : "light:bg"
-                } text-black flex mt-[-4px]`}
+                } text-black`}
               >
-                <a
-                  className=" hover:text-green-500 duration-700"
-                  href="https://www.linkedin.com/in/osho-iseoluwa"
-                >
-                  <LinkedIn size={22} />
-                </a>
-                <a
-                  className="px-4 hover:text-green-500 duration-700"
-                  href="mailto:oshoiseoluwa@gmail.com"
-                >
-                  <Email size={22} />
-                </a>
-                <a
-                  className=" hover:text-green-500 duration-700"
-                  href="tel:+2348110470908"
-                >
-                  <Phone size={22} />
-                </a>
-                <a
-                  className="px-4 hover:text-green-500 duration-700"
-                  href="https://github.com/theCephas"
-                >
-                  <Github size={22} />
-                </a>
-                <a
-                  className=" hover:text-green-500 duration-700"
-                  href="https://twitter.com/OshoIseoluwa"
-                >
-                  <Twitter size={22} />
-                </a>
-              </div>
-            </footer>
+                &copy;2024
+              </p>
+              <a
+                href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"
+                className="inline cursor-pointer text-green-500  text-[13px]"
+              >
+                Timothy Akobundu
+              </a>
+            </div>
+            <div
+              className={`${
+                isDarkMode ? "dark:text-white" : "light:bg"
+              } text-black flex mt-[-4px]`}
+            >
+              <a
+                className=" hover:text-green-500 duration-700"
+                href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"
+              >
+                <LinkedIn size={22} />
+              </a>
+              <a
+                className="px-4 hover:text-green-500 duration-700"
+                href="mailto:timothy.christian10@gmail.com"
+              >
+                <Email size={22} />
+              </a>
+              <a
+                className=" hover:text-green-500 duration-700"
+                href="tel:+2348126402934"
+              >
+                <Phone size={22} />
+              </a>
+              <a
+                className="px-4 hover:text-green-500 duration-700"
+                href="https://github.com/timothy2462"
+              >
+                <Github size={22} />
+              </a>
+              <a
+                className=" hover:text-green-500 duration-700"
+                href="https://twitter.com/Timostickz04"
+              >
+                <Twitter size={22} />
+              </a>
+            </div>
+          </footer>
           </div>
         </section>
       )}

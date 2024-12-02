@@ -93,7 +93,7 @@ export default function SilverGreen() {
         <div className="flex">
           <p className={`pr-2 text-black`}>&copy;2024</p>
           <a
-            href="https://github.com/theCephas"
+            href="#"
             className="inline cursor-pointer text-green-500 "
           >
             Osho Iseoluwa
@@ -102,31 +102,31 @@ export default function SilverGreen() {
         <div className={`text-black flex mt-[-4px]`}>
           <a
             className=" hover:text-green-500 duration-700"
-            href="https://www.linkedin.com/in/osho-iseoluwa"
+            href="#"
           >
             <LinkedIn size={22} />
           </a>
           <a
             className="px-4 hover:text-green-500 duration-700"
-            href="mailto:oshoiseoluwa@gmail.com"
+            href="#"
           >
             <Email size={22} />
           </a>
           <a
             className=" hover:text-green-500 duration-700"
-            href="tel:+2348110470908"
+            href="#"
           >
             <Phone size={22} />
           </a>
           <a
             className="px-4 hover:text-green-500 duration-700"
-            href="https://github.com/theCephas"
+            href="#"
           >
             <Github size={22} />
           </a>
           <a
             className=" hover:text-green-500 duration-700"
-            href="https://twitter.com/OshoIseoluwa"
+            href="#"
           >
             <Twitter size={22} />
           </a>
